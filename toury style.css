@@ -1,0 +1,328 @@
+/* Commone CSS Start */
+*{
+    margin: 0;
+    padding:0;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    position:absolute;
+    width: 100%;
+}
+p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+h2{
+    color:#FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+}
+h5{
+    color:#FBD784;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    width: 1320px;
+    margin:0 auto;
+}
+body{
+    background-color: #000000;
+}
+/* Commone CSS Start */
+
+/* Nav Bar CSS End */
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    position:relative;
+}
+.set-menu{
+    display: flex;
+    gap:60px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.set-menu li a{
+    color:#FFFF;
+    text-transform: capitalize;
+}
+.set-menu li a:hover{
+    color:black;
+}
+/* Nav Bar CSS End */
+
+/* Banner CSS Start */
+#banner-part{
+    background-image: url('tourys images/Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-text{
+    padding:380px 0px;
+}
+.banner-text h1{
+    text-transform: capitalize;
+    color:#FFFF;
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+/* Banner CSS End */
+
+/* Holiday Part Start */
+.holiday-part{
+    padding:260px 0px;
+}
+.holiday{
+    display: flex;
+    justify-content: space-between;
+    gap:139px;
+    align-items: center;
+}
+.holiday-text h2{
+    margin-top: 13px;
+}
+.holiday-text p{
+    margin-top: 13px;
+    line-height: 3.2;
+}
+.holiday-text a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FBD784;
+    margin-top: 66px;
+}
+/* Holiday Part End */
+
+/* Climb togather Start */
+
+.climb-togather-img{
+    background-image: url('tourys images/Climb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+}
+.climb-togather-text{
+    margin-top: 560px;
+    margin-bottom: 13px;
+    padding:0px 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.climb-togather-text h5{
+    letter-spacing: 6px;
+    margin-bottom: 13px;
+}
+.climb-togather-text h2{
+    text-align: center;    
+}
+
+.climb-togather-text p{
+    font-size: 15px;
+    font-weight:normal;
+    line-height: 32px;
+    margin-top: 14px;
+    margin-bottom: 26px;
+    text-align: justify;
+}
+.climb-togather-text p span{
+    display: inline-block;
+    text-align: center;
+}
+.climb-togather-text a{
+    color:#FBD784;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 33px;
+}
+/* Climb togather End */
+
+/*Explore Part Start*/
+.exploreimg{
+    padding: 260px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.exploreimg2{
+    background-image: url('tourys images/Explore2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width:350px;
+    position:relative;
+    transition: 0.5s;
+}
+.exploreimg2:hover .shabowimg{
+    background-color: #00000060;
+    height:100%;
+}
+.exploreimg2:hover{
+    scale:0.5;
+}
+.shabowimg{
+    position:absolute;
+    background-color: #8a171796;
+    height: 0px;
+    width: 100%;
+    transition: 1s;
+    
+}
+.exploreimg2-text{
+    padding:0px 50px;
+    margin-top: 162px;
+    text-align: center;
+    position:absolute;
+}
+.exploreimg2-text h5{
+    letter-spacing: 7px;
+}
+.exploreimg2-text p{
+    padding:39px 0px;
+    font-weight: 400px;
+}
+.exploreimg2-text a{
+    color:#FBD784;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Explore Part End*/
+
+/*Culture Part Start*/
+.culture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 260px;
+}
+.culture-text-part h5{
+    letter-spacing: 6px;
+}
+.culture-text-part h2{
+    padding: 19.5px 0px;
+}
+.culture-text-part p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.culture-text-part a{
+    margin-top: 47px;
+    color:#FBD784;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Culture Part End*/
+
+/*Footer Part Start*/
+.footerhead{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerbtn{
+    display:flex;
+    gap:26px;
+    text-transform: capitalize;
+    align-items: center;
+    
+}
+.footerbtn p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.footerbtn button{
+    font-size: 17px;
+    font-weight: bold;
+    padding:19.35px 67.4px;
+    color:#000000;
+    background-color:#FFA343;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.footerbtn button:hover{
+    font-size:20px;
+    background-color: #f07c00;
+}
+.footer{
+    display: flex;
+    margin-top: 98px;
+    color:#FFFFFF;
+}
+.footer a{
+    color:#FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 41px;
+}
+.footer a:hover{
+    color:#f07c00;
+}
+.footer-text{
+    margin-right: 284px;
+}
+.footer-text h3{
+    width:407px;
+    font-size: 36px;
+    font-weight:bold;
+    text-transform: capitalize;
+    letter-spacing: -0.3px;
+}
+.footer-text p{
+    margin-top: 52.68px;
+    font-size: 15px;
+    font-weight:400px;
+    text-transform: capitalize;
+    letter-spacing:-0.2px;
+}
+.footer-icon{
+    margin: 36.5px 0px 258px 0px;
+    height:17.38px;
+    width:117.3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu1{
+    margin-right: 84px;
+}
+.footer-menu1-li1 a{
+    color:#FFD1A0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-menu2{
+    margin-right: 139.7px;
+}
+.footer-menu2-li1 a{
+    color:#FFD1A0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-menu3-li1 a{
+    color:#FFD1A0;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Footer Part Start*/
